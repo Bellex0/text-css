@@ -33,3 +33,25 @@
       -webkit-mask: url(#mask);
       mask: url(#mask);
   }
+
+  #svg1 { 
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0; 
+    height: 100%;
+  }
+  #svg1 text {
+    font-family: Biko, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 38px;
+    text-align: center
+  }
+  #svg1 rect {
+    fill: white;
+  }
+  #svg1 > rect {
+      -webkit-mask: url(#mask1);
+      mask: url(#mask1);
+  }
